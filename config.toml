@@ -1,4 +1,5 @@
 enable-module-update = true
+patches-version = "dev"
 
 # ReVanced
 [YouTube]
