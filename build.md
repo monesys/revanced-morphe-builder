@@ -1,5 +1,5 @@
-YT-Music-Morphe: 8.47.56  
 YT-Music-anddea: 8.30.54  
+YT-Music-Morphe: 8.47.56  
 YouTube-Morphe: 20.47.62  
 YouTube-anddea: 20.05.46  
 
@@ -10,5 +10,5 @@ Patches: anddea/patches-4.0.0-dev.13.mpp
 [Changelog](https://github.com/anddea/revanced-patches/releases/tag/v4.0.0-dev.13)
 
 CLI: MorpheApp/morphe-cli-1.7.0-all.jar  
-Patches: MorpheApp/patches-1.24.0-dev.14.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.24.0-dev.14)  
+Patches: MorpheApp/patches-1.25.0-dev.1.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.25.0-dev.1)  
