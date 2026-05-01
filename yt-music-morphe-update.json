@@ -1,6 +1,6 @@
 {
-  "version": "8.47.56 (patches dev.11.mpp)",
-  "versionCode": 398,
-  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/398/yt-music-morphe-module-v8.47.56-arm64-v8a.zip",
+  "version": "8.47.56 (patches dev.12.mpp)",
+  "versionCode": 404,
+  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/404/yt-music-morphe-module-v8.47.56-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/monesys/revanced-morphe-builder/update/build.md"
 }
