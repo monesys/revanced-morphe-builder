@@ -5,8 +5,8 @@ Install [ReVanced GmsCore](https://github.com/ReVanced/GmsCore/releases/latest) 
 (Optional) Use [zygisk-detach](https://github.com/j-hc/zygisk-detach/releases/latest) to detach YouTube and YouTube Music modules from the Play Store
   
 CLI: MorpheApp/morphe-cli-1.8.1-all.jar  
-Patches: MorpheApp/patches-1.30.0-dev.6.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.30.0-dev.6)  
+Patches: MorpheApp/patches-1.30.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.30.0)  
 
 Skipped:  
-Patches: anddea/patches-4.1.0-dev.1.mpp        
+Patches: anddea/patches-4.1.0-dev.1.mpp          
