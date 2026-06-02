@@ -59,6 +59,10 @@ jobs:
           cat build.md >> "$GITHUB_OUTPUT"
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
+
+      - name: Show patch files
+        run: |
+          find . -name "*.mpp" | sort
       
       - name: Upload release
         env:
