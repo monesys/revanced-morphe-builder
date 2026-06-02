@@ -63,7 +63,34 @@ jobs:
       - name: Show patch files
         run: |
           find . -name "*.mpp" | sort
-      
+
+      - name: Get patch version
+        id: patch_ver
+        run: |
+          PATCH_VER=$(basename "$(find ./temp/morpheapp-rv -name 'patches-*.mpp' | head -n1)")
+          PATCH_VER=${PATCH_VER#patches-}
+          PATCH_VER=${PATCH_VER%.mpp}
+
+          echo "PATCH_VER=$PATCH_VER" >> "$GITHUB_OUTPUT"
+          echo "Detected patch version: $PATCH_VER"
+
+      - name: Rename outputs
+        run: |
+          cd build
+
+          for f in *; do
+            [ -f "$f" ] || continue
+
+            ext="${f##*.}"
+            base="${f%.*}"
+
+            mv "$f" "${base}-p${{ steps.patch_ver.outputs.PATCH_VER }}.${ext}"
+          done
+
+          echo "Renamed files:"
+          ls -lah
+
+
       - name: Upload release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -74,7 +101,10 @@ jobs:
             gh release edit "$TAG" --title "Release" --notes "$BODY"
             gh release upload "$TAG" ./build/* --clobber
           else
-            gh release create "$TAG" ./build/* --title "Release" --notes "$BODY"
+            gh release create \
+              "$TAG" \
+              ./build/* \
+              --title "Morphe patches ${{ steps.patch_ver.outputs.PATCH_VER }}"
           fi
 
       - name: Update modules changelog and update json
