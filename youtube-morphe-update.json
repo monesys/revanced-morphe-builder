@@ -1,6 +1,6 @@
 {
-  "version": "20.51.39 (patches dev.11.mpp)",
-  "versionCode": 568,
-  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/568/youtube-morphe-module-v20.51.39-all-p1.31.0-dev.11.zip",
+  "version": "20.51.39 (patches dev.12.mpp)",
+  "versionCode": 569,
+  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/569/youtube-morphe-module-v20.51.39-all-p1.31.0-dev.12.zip",
   "changelog": "https://raw.githubusercontent.com/monesys/revanced-morphe-builder/update/build.md"
 }
