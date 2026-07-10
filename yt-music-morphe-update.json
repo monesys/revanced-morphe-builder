@@ -1,6 +1,6 @@
 {
-  "version": "9.15.51 (patches dev.4.mpp)",
-  "versionCode": 592,
-  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/592/yt-music-morphe-module-v9.15.51-arm64-v8a-p1.34.0-dev.4.zip",
+  "version": "9.15.51 (patches 1.34.0.mpp)",
+  "versionCode": 595,
+  "zipUrl": "https://github.com/monesys/revanced-morphe-builder/releases/download/595/yt-music-morphe-module-v9.15.51-arm64-v8a-p1.34.0.zip",
   "changelog": "https://raw.githubusercontent.com/monesys/revanced-morphe-builder/update/build.md"
 }
